@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "BTKCharacter.h"
 
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface BTKCharacterController : NSObject
 
@@ -18,4 +18,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+

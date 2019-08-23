@@ -29,7 +29,7 @@
 
 @implementation BTKCharacter (jsonConvertible)
 
-- (BTKCharacter *)initwithDictionary:(NSDictionary<NSString *,id> *)dictionary
+- (BTKCharacter *)initWithDictionary:(NSDictionary<NSString *,id> *)dictionary
 {
     NSString *name = dictionary[@"name"];
     NSString *house = dictionary[@"house"];
