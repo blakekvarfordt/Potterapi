@@ -12,6 +12,7 @@
 		63985270230F5C4D0015A46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6398526F230F5C4D0015A46B /* Assets.xcassets */; };
 		63985273230F5C4D0015A46B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63985271230F5C4D0015A46B /* LaunchScreen.storyboard */; };
 		63985276230F5C4D0015A46B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985275230F5C4D0015A46B /* main.m */; };
+		63985282230F5F440015A46B /* BTKCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985281230F5F440015A46B /* BTKCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		63985272230F5C4D0015A46B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63985274230F5C4D0015A46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63985275230F5C4D0015A46B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63985280230F5F440015A46B /* BTKCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKCharacter.h; sourceTree = "<group>"; };
+		63985281230F5F440015A46B /* BTKCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,15 +58,49 @@
 		63985265230F5C4A0015A46B /* PotterAPI */ = {
 			isa = PBXGroup;
 			children = (
+				6398527F230F5F0E0015A46B /* Resources */,
+				6398527E230F5F040015A46B /* ViewController */,
+				6398527D230F5EFC0015A46B /* ModelController */,
+				6398527C230F5EEF0015A46B /* Model */,
+				6398526C230F5C4A0015A46B /* Main.storyboard */,
+			);
+			path = PotterAPI;
+			sourceTree = "<group>";
+		};
+		6398527C230F5EEF0015A46B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63985280230F5F440015A46B /* BTKCharacter.h */,
+				63985281230F5F440015A46B /* BTKCharacter.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6398527D230F5EFC0015A46B /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		6398527E230F5F040015A46B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6398527F230F5F0E0015A46B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				63985266230F5C4A0015A46B /* AppDelegate.h */,
 				63985267230F5C4A0015A46B /* AppDelegate.m */,
-				6398526C230F5C4A0015A46B /* Main.storyboard */,
 				6398526F230F5C4D0015A46B /* Assets.xcassets */,
 				63985271230F5C4D0015A46B /* LaunchScreen.storyboard */,
 				63985274230F5C4D0015A46B /* Info.plist */,
 				63985275230F5C4D0015A46B /* main.m */,
 			);
-			path = PotterAPI;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +129,7 @@
 		6398525B230F5C4A0015A46B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BTK;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Blake kvarfordt";
 				TargetAttributes = {
@@ -138,6 +176,7 @@
 			files = (
 				63985276230F5C4D0015A46B /* main.m in Sources */,
 				63985268230F5C4A0015A46B /* AppDelegate.m in Sources */,
+				63985282230F5F440015A46B /* BTKCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83YG3ZQCH4;
-				INFOPLIST_FILE = PotterAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PotterAPI/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83YG3ZQCH4;
-				INFOPLIST_FILE = PotterAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PotterAPI/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
