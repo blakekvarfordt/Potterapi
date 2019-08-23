@@ -13,6 +13,7 @@
 		63985273230F5C4D0015A46B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63985271230F5C4D0015A46B /* LaunchScreen.storyboard */; };
 		63985276230F5C4D0015A46B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985275230F5C4D0015A46B /* main.m */; };
 		63985282230F5F440015A46B /* BTKCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985281230F5F440015A46B /* BTKCharacter.m */; };
+		63985285230F650D0015A46B /* BTKCharacterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985284230F650D0015A46B /* BTKCharacterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		63985275230F5C4D0015A46B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63985280230F5F440015A46B /* BTKCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKCharacter.h; sourceTree = "<group>"; };
 		63985281230F5F440015A46B /* BTKCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKCharacter.m; sourceTree = "<group>"; };
+		63985283230F650D0015A46B /* BTKCharacterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKCharacterController.h; sourceTree = "<group>"; };
+		63985284230F650D0015A46B /* BTKCharacterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKCharacterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		6398527D230F5EFC0015A46B /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				63985283230F650D0015A46B /* BTKCharacterController.h */,
+				63985284230F650D0015A46B /* BTKCharacterController.m */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63985276230F5C4D0015A46B /* main.m in Sources */,
+				63985285230F650D0015A46B /* BTKCharacterController.m in Sources */,
 				63985268230F5C4A0015A46B /* AppDelegate.m in Sources */,
 				63985282230F5F440015A46B /* BTKCharacter.m in Sources */,
 			);

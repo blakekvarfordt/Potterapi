@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly, nullable) NSString *boggart;
 @property (nonatomic, readonly) BOOL deathEater;
 
-- (instancetype)initwithCharacterName:(NSString *)name house:(NSString *)house boggart:(NSString *)boggart deathEater:(BOOL)deathEater;
+- (instancetype)initWithCharacterName:(NSString *)name house:(NSString *)house boggart:(NSString *)boggart deathEater:(BOOL)deathEater;
 
 @end
 
@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BTKCharacter (jsonConvertible)
 
-- (BTKCharacter *)initwithDictionary:(NSDictionary<NSString *, id>*)dictionary;
+- (BTKCharacter *)initWithDictionary:(NSDictionary<NSString *, id>*)dictionary;
 
 @end
 

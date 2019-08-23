@@ -10,7 +10,7 @@
 
 @implementation BTKCharacter
 
-- (instancetype)initwithCharacterName:(NSString *)name house:(NSString *)house boggart:(NSString *)boggart deathEater:(BOOL)deathEater
+- (instancetype)initWithCharacterName:(NSString *)name house:(NSString *)house boggart:(NSString *)boggart deathEater:(BOOL)deathEater
 {
     self = [super init];
     
@@ -36,7 +36,7 @@
     NSString *boggart = dictionary[@"boggart"];
     BOOL deathEater = dictionary[@"deathEater"];
     
-    return [self initwithCharacterName:name house:house boggart:boggart deathEater:deathEater];
+    return [self initWithCharacterName:name house:house boggart:boggart deathEater:deathEater];
 }
 
 @end
