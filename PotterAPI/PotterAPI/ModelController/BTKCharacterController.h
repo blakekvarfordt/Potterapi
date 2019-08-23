@@ -13,9 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BTKCharacterController : NSObject
 
-- (void)fetchCharactersWithCompletion:(void(^) (NSArray<BTKCharacter *> *))completion;
++ (void)fetchCharactersWithCompletion:(void(^) (NSArray<BTKCharacter *> *))completion;
 
-- (void)fetchDictionary:(BTKCharacter *)dictionary;
++ (void)fetchDictionary:(BTKCharacter *)dictionary;
 
 @end
 
