@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)fetchCharactersWithCompletion:(void(^) (NSArray<BTKCharacter *> *))completion;
 
-+ (void)fetchDictionary:(BTKCharacter *)dictionary;
 
 @end
 

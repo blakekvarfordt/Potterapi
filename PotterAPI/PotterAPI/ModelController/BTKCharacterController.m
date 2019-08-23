@@ -76,10 +76,5 @@ static NSString * const apiValue = @"$2a$10$zcsg1MgiqBi2NkbSArK.xO7RXyDhsddQKjnL
 }
 
 
-+ (void)fetchDictionary:(BTKCharacter *)dictionary
-{
-    
-    
-}
 
 @end
