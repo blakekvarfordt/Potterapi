@@ -15,6 +15,7 @@
 		63985282230F5F440015A46B /* BTKCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985281230F5F440015A46B /* BTKCharacter.m */; };
 		63985285230F650D0015A46B /* BTKCharacterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63985284230F650D0015A46B /* BTKCharacterController.m */; };
 		63985288230F6D650015A46B /* BTKCharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985287230F6D650015A46B /* BTKCharacterTableViewController.swift */; };
+		6398528A230F73A40015A46B /* BTKDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985289230F73A40015A46B /* BTKDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		63985284230F650D0015A46B /* BTKCharacterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKCharacterController.m; sourceTree = "<group>"; };
 		63985286230F6D650015A46B /* PotterAPI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PotterAPI-Bridging-Header.h"; sourceTree = "<group>"; };
 		63985287230F6D650015A46B /* BTKCharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTKCharacterTableViewController.swift; sourceTree = "<group>"; };
+		63985289230F73A40015A46B /* BTKDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTKDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		6398527E230F5F040015A46B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				63985289230F73A40015A46B /* BTKDetailViewController.swift */,
 				63985287230F6D650015A46B /* BTKCharacterTableViewController.swift */,
 				63985286230F6D650015A46B /* PotterAPI-Bridging-Header.h */,
 			);
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63985276230F5C4D0015A46B /* main.m in Sources */,
+				6398528A230F73A40015A46B /* BTKDetailViewController.swift in Sources */,
 				63985285230F650D0015A46B /* BTKCharacterController.m in Sources */,
 				63985288230F6D650015A46B /* BTKCharacterTableViewController.swift in Sources */,
 				63985268230F5C4A0015A46B /* AppDelegate.m in Sources */,

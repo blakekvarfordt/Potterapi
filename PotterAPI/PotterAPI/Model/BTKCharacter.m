@@ -26,7 +26,6 @@
 @end
 
 
-
 @implementation BTKCharacter (jsonConvertible)
 
 - (BTKCharacter *)initWithDictionary:(NSDictionary<NSString *,id> *)dictionary
